@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Terminal bei Mac</h1>
+            <p>Last Login: Mittwoch, 04. August 2022 18:00:00 - 21:00:00</p>
+            <p>super(code) - Wei Ming</p>
+        </section>
+    </header>
+    <main>
+        <div>
+            <section>
+                <h2>Befehle</h2>
+                    <table class="customTable">
+                        <thead>
+                            <tr>
+                                <th>Befehl</th>
+                                <th>Beschreibung</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>~</code></td>
+                                <td>Userseite</td>
+                            </tr>
+                            <tr>
+                                <td><code>pwd</code></td>
+                                <td>Zeigt aktuellen Arbeitsorder an</td>
+                            </tr>
+                            <tr>
+                                <td><code>ls</code></td>
+                                <td>Zeigt die Inhalte des aktuellen Ordners in Spalten an</td>
+                            </tr>
+                            <tr>
+                                <td><code>ls -1</code></td>
+                                <td>Zeigt die Inhalte des aktuellen Orders in Listenform an</td>
+                            </tr>
+                            <tr>
+                                <td><code>ls -a</code></td>
+                                <td>Zeigt auch versteckte Datein an</td>
+                            </tr>
+                            <tr>
+                                <td><code>ls -l</code></td>
+                                <td>Zeigt Zusatzinformationen an</td>
+                            </tr>
+                            <tr>
+                                <td><code>clear</code></td>
+                                <td>Löscht den Bildschirm</td>
+                            </tr>
+                            <tr>
+                                <td><code>cd</code>+<code>Order</code></td>
+                                <td>Springt in den angegebenen Order: zum Beispiel cd Dokumente. Auch mehrere Order mit / möglich. Vereinfachung: mit TAB sucht Terminal die möglichen Dateien/ Ordner aus
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><code>cd ..</code></td>
+                                <td>Springt eine Orderebene zurück</td>
+                            </tr>
+                            <tr>
+                                <td><code>mkdir</code></td>
+                                <td>Make Directory - Neuer Ordner! Auch mehrere Order parallel: <code>mkdir assets/css</code></td>
+                            </tr>
+                            <tr>
+                                <td><code>sudo</code></td>
+                                <td>Irgendwas mit Passworteingabe</td>
+                            </tr>
+                            <tr>
+                                <td><code>touch</code></td>
+                                <td>Datei erstellen</td>
+                            </tr>
+                            <tr>
+                                <td><code>mv</code></td>
+                                <td>Verschieben. Befehl: mv style.css /assets/css/</td>
+                            </tr>
+                            <tr>
+                                <td><code>cp</code></td>
+                                <td>Kopieren. cp index.html /assets/</td>
+                            </tr>
+                            <tr>
+                                <td><code>exit</code></td>
+                                <td>Speichern, Prozess beendet</td>
+                            </tr>
+                            <tr>
+                                <td><code>rm</code></td>
+                                <td>Remove/ Löschen von Datein: rm index.html</td>
+                            </tr>
+                            <tr>
+                                <td><code>rmdir</code></td>
+                                <td>Löschen von Ordnern</td>
+                            </tr>
+                            <tr>
+                                <td><code>&&</code></td>
+                                <td>Befehle kombinieren und hintereinander ablaufen lassen</td>
+                            </tr>
+                            <tr>
+                                <td><code>nano</code></td>
+                                <td>Texteingabe über Nano</td>
+                            </tr>
+                            <tr>
+                                <td><code>sh</code></td>
+                                <td>Shell ausführen, z.B. sh ordnerstruktur.sh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="https://www.shellbefehle.de/befehle/"> hier noch mehr...</a>
+            </section>
+            <section class="shortcuts">
+                <h2>Shortcuts</h2>
+                <ul>
+                    <li><code>Pfeiltasten</code> Innerhalb eines Orders bewegen</li>
+                    <li><code>CMD + U</code> Löscht die Linie vom Cursorpunkt zurück zum Anfang</li>
+                    <li><code>CMD + A</code> Bewegt den Cursor an den Anfang der Zeile</li>
+                    <li><code>CMD + E</code> Bewegt den Cursor ans Ende der Zeile</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Shellscripts</h2>
+                <p>Erstellen von Shellscripts</p>
+            </section>
+            <section>
+                <h2>EasterEggs</h2>
+                <p><code>nc towel.blinkenlights.nl 23</code> Öffnet Star Wars</p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
